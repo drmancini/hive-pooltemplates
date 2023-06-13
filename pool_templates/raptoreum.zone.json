@@ -11,39 +11,75 @@
     "coin": "RTM",
     "servers": [
       {
-        "geo": "Europe (Germany)",
+        "geo": "Europe (Germany) PPLNT",
         "urls": [
-          "europe.raptoreum.zone:3333"
+          "europe.raptoreumzone.com:3333"
         ],
         "ssl_urls": [
-          "europe.raptoreum.zone:4444"
+          "europe.raptoreumzone.com:4444"
         ]
       },
       {
-        "geo": "USA-1 (East Coast)",
+        "geo": "Europe (Germany) SOLO",
         "urls": [
-          "usa-east.raptoreum.zone:3333"
+          "europe.raptoreumzone.com:4010"
         ],
         "ssl_urls": [
-          "usa-east.raptoreum.zone:4444"
+          "europe.raptoreumzone.com:5010"
         ]
       },
       {
-        "geo": "USA-2 (West Coast)",
+        "geo": "USA-1 (East Coast) PPLNT",
         "urls": [
-          "usa-west.raptoreum.zone:3333"
+          "usa-east.raptoreumzone.com:3333"
         ],
         "ssl_urls": [
-          "usa-west.raptoreum.zone:4444"
+          "usa-east.raptoreumzone.com:4444"
         ]
       },
       {
-        "geo": "Asia (Singapore)",
+        "geo": "USA-1 (East Coast) SOLO",
         "urls": [
-          "asia.raptoreum.zone:3333"
+          "usa-east.raptoreumzone.com:4010"
         ],
         "ssl_urls": [
-          "asia.raptoreum.zone:4444"
+          "usa-east.raptoreumzone.com:5010"
+        ]
+      },
+      {
+        "geo": "USA-2 (West Coast) PPLNT",
+        "urls": [
+          "usa-west.raptoreumzone.com:3333"
+        ],
+        "ssl_urls": [
+          "usa-west.raptoreumzone.com:4444"
+        ]
+      },
+      {
+        "geo": "USA-2 (West Coast) SOLO",
+        "urls": [
+          "usa-west.raptoreumzone.com:4010"
+        ],
+        "ssl_urls": [
+          "usa-west.raptoreumzone.com:5010"
+        ]
+      },
+      {
+        "geo": "Asia (Singapore) PPLNT",
+        "urls": [
+          "asia.raptoreumzone.com:3333"
+        ],
+        "ssl_urls": [
+          "asia.raptoreumzone.com:4444"
+        ]
+      },
+      {
+        "geo": "Asia (Singapore) SOLO",
+        "urls": [
+          "asia.raptoreumzone.com:4010"
+        ],
+        "ssl_urls": [
+          "asia.raptoreumzone.com:5010"
         ]
       }
     ],
