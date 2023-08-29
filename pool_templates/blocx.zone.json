@@ -1,0 +1,60 @@
+[
+  {
+    "pool": {
+      "url": "https://blocx.zone",
+      "name": "BLOCX.zone",
+      "fee": 1,
+      "type": "PPLNT, SOLO"
+    }
+  },
+  {
+    "coin": "BLOCX",
+    "servers": [
+      {
+        "geo": "Europe (Germany)",
+        "urls": [
+          "europe.blocxzone.com:3444"
+        ],
+        "ssl_urls": [
+          "europe.blocxzone.com:4555"
+        ]
+      },
+      {
+        "geo": "USA-1 (East Coast)",
+        "urls": [
+          "usa-east.blocxzone.com:3444"
+        ],
+        "ssl_urls": [
+          "usa-east.blocxzone.com:4555"
+        ]
+      },
+      {
+        "geo": "USA-2 (West Coast)",
+        "urls": [
+          "usa-west.blocxzone.com:3444"
+        ],
+        "ssl_urls": [
+          "usa-west.blocxzone.com:4555"
+        ]
+      },
+      {
+        "geo": "Asia (Singapore)",
+        "urls": [
+          "asia.blocxzone.com:3444"
+        ],
+        "ssl_urls": [
+          "asia.blocxzone.com:4555"
+        ]
+      }
+    ],
+    "miners": {
+      "cpuminer-opt": {
+        "url": "stratum+tcp://%URL%",
+        "template": "%WAL%.%WORKER_NAME%",
+        "algo": "x11",
+        "pass": "x",
+        "max-temp": 0
+      },
+    }
+  }
+]
